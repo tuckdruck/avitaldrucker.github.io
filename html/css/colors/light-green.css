@@ -1,0 +1,198 @@
+/* ==========================
+Color Name: Light Green
+Color Code: #8BC34A
+=========================== */
+.slider-bg {
+	background: #8BC34A none repeat scroll 0 0;
+}
+header .main-menu .is-sticky nav.navbar .navbar-header a.navbar-brand span {
+    color: #8BC34A;
+}
+
+header .main-menu .is-sticky nav.navbar div.collapse ul.navbar-nav li.active a {
+    color: #8BC34A;
+}
+
+header .main-menu .is-sticky nav.navbar div.collapse ul.navbar-nav li a:hover {
+    color: #8BC34A;
+}
+
+.sidenav a:hover {
+    color: #8BC34A;
+}
+
+.home .intro-text ul.home-btns li a:hover {
+    color: #8BC34A;
+}
+
+#particles-home {
+    background-color: #8BC34A;
+}
+
+.about .about-info ul.about-btn li a:hover {
+    border-color: #8BC34A;
+}
+
+.section-header h2 span i {
+    color: #8BC34A;
+}
+
+.services .service-block .box-header .service-icon i {
+    color: #8BC34A;
+}
+
+.services .service-block:hover {
+    background: #8BC34A none repeat scroll 0 0;
+    border-color: #8BC34A;
+}
+
+.works .works-gallery ul.work-filter li.active {
+    border-color: #8BC34A;
+}
+
+.works .works-gallery .filtr-container .filtr-item figure figcaption {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.works .works-gallery .filtr-container .filtr-item figure figcaption .work-details a:hover {
+    color: #8BC34A;
+}
+
+.skills .skill-wrapper .skill-single .skill-bar {
+    border-bottom: 3px solid #8BC34A;
+}
+
+.testimonial .testimonial-carousel .owl-nav .owl-prev:hover::before, .testimonial .testimonial-carousel .owl-nav .owl-next:hover::before {
+    background: #8BC34A none repeat scroll 0 0;
+    border-color: #8BC34A;
+}
+
+.callto-action .cta-info {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.callto-action .cta-info ul li a:hover {
+    color: #8BC34A;
+}
+
+.blog .blog-wrapper .blog-single figure .b-post-date::before {
+    border: 1px solid #8BC34A;
+}
+
+.blog .blog-wrapper .blog-single:hover figure .b-post-date::before {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.blog .blog-wrapper .blog-single:hover figure figcaption h2 a {
+    color: #8BC34A;
+}
+
+.blog .blog-wrapper .blog-single .blog-single-bottom .brm-btn {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.blog .blog-wrapper .blog-single .blog-single-bottom {
+    border-bottom: 1px solid #8BC34A;
+}
+
+.contact .contact-blocks .contact-info-block i {
+	color: #8BC34A;
+}
+
+.contact form .form-group input:focus, .contact form .form-group textarea:focus {
+    border-color: #8BC34A;
+}
+
+.contact form .form-group button {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+footer p i, footer p a {
+    color: #8BC34A;
+}
+
+.home03 {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #8BC34A, #008040) repeat scroll 0 0;
+}
+
+.home02 {
+    background-color: #8BC34A;
+}
+
+.page-heading .page-heading-inner .page-name h2 span {
+    color: #8BC34A;
+}
+
+.page-heading .page-heading-inner .page-name ul.breadcrumb li a {
+    color: #8BC34A;
+}
+
+.page-heading .page-heading-inner .page-name::before {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.blog-content-wrapper .blog-inner .blog-single-post .post-excerpt ul.post-meta li a {
+    color: #8BC34A;
+}
+
+.blog-content-wrapper .blog-inner .blog-single-post .post-excerpt a.post-details-btn {
+    border: 2px solid #8BC34A;
+    color: #8BC34A;
+}
+
+.blog-content-wrapper .blog-inner .blog-single-post .post-excerpt a.post-details-btn:hover {
+    background: #8BC34A none repeat scroll 0 0;
+}
+
+.blog-content-wrapper .blog-inner .blog-pagination ul li.active a {
+    border-color: #8BC34A;
+    color: #8BC34A;
+}
+
+.sidebar-inner .widget.search form input:focus {
+    border-color: #8BC34A;
+}
+
+.sidebar-inner .widget.search form button {
+    background: #8BC34A none repeat scroll 0 0;
+    border: 2px solid #8BC34A;
+}
+
+.sidebar-inner .widget.recent-post ul li a:hover {
+    color: #8BC34A;
+}
+
+.sidebar-inner .widget.categories ul li a:hover {
+    color: #8BC34A;
+}
+
+.sidebar-inner .widget.tags ul li a:hover {
+    border-color: #8BC34A;
+    color: #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-single-heading ul li a {
+    color: #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-comment .comments-wrapper .comment-single .author-comment h2 span {
+    color: #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-comment .comments-wrapper .comment-single .author-comment a:hover {
+    border-color: #8BC34A;
+    color: #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-comment-form form input:focus, .blog-single-wrapper .blog-single-inner .blog-comment-form form textarea:focus {
+    border-color: #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-comment-form form button {
+    background: #8BC34A none repeat scroll 0 0;
+    border: 2px solid #8BC34A;
+}
+
+.blog-single-wrapper .blog-single-inner .blog-comment-form form button:hover {
+    color: #8BC34A;
+}

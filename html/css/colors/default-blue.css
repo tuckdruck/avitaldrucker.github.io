@@ -196,3 +196,32 @@ footer p i, footer p a {
 .blog-single-wrapper .blog-single-inner .blog-comment-form form button:hover {
     color: #435be0;
 }
+
+svg {
+	width: 125px;
+}
+
+span.skills {
+	display: block;
+}
+
+.svg {
+	width: 125px;
+	height: 125px;
+}
+
+section.skill-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+figure.skill {
+	width: 125px;
+	margin-right: 5%;
+}
+
+figure:last-child {
+	margin-right: 0%;
+}

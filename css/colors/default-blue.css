@@ -232,7 +232,7 @@ img.project-thumb {
 }
 
 section.works {
-	min-height: 800px;
+	min-height: 1200px;
 }
 
 section.project-text {
@@ -241,4 +241,38 @@ section.project-text {
 
 figure.project {
 	display: flex;
+	margin-bottom: 50px;
+}
+
+h1.project-header {
+	font-size: 20px;
+}
+
+img.project-thumb {
+	margin-right: 40px;
+}
+
+ul.project-links {
+	display: flex;
+	padding: 0;
+}
+
+ul.project-links li {
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+	font-weight: bold;
+}
+
+ul.project-links li a:hover {
+	color: #435be0;
+	cursor: pointer;
+}
+
+a {
+	color: inherit;
+}
+
+ul.project-links li:first-child {
+	margin-right: 20px;
 }

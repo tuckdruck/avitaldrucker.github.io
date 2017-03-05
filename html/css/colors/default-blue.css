@@ -225,3 +225,20 @@ figure.skill {
 figure:last-child {
 	margin-right: 0%;
 }
+
+img.project-thumb {
+	width: 30%;
+	height: 18.6%;
+}
+
+section.works {
+	min-height: 800px;
+}
+
+section.project-text {
+	width: 70%;
+}
+
+figure.project {
+	display: flex;
+}

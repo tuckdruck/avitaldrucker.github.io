@@ -149,40 +149,44 @@
 					</div>
 					<div class="col-sm-12 works-gallery wow fadeIn" data-wow-delay="0.6s">
 						<div class="filtr-container row">
-							<div class="col-xs-12 col-sm-4 col-md-4 filtr-item" data-category="1, 5">
-								<figure>
-									<img class="img-responsive" src="images/greatreads_thumb.png" alt="greatreads">
-									<figcaption>
-										<div class="work-details">
-											<a href="images/work01.jpg"><i class="fa fa-plus"></i></a>
-											<h2>Greatreads</h2>
-										</div>
-									</figcaption>
-								</figure>
-							</div>
-							<div class="col-xs-12 col-sm-4 col-md-4 filtr-item" data-category="2, 5">
-								<figure>
-									<img class="img-responsive" src="images/Tetris.png" alt="tetris">
-									<figcaption>
-										<div class="work-details">
-											<a href="images/work02.jpg"><i class="fa fa-plus"></i></a>
-											<h2>Tetris</h2>
-										</div>
-									</figcaption>
-								</figure>
-							</div>
-							<div class="col-xs-12 col-sm-4 col-md-4 filtr-item" data-category="3, 4">
-								<figure>
-									<img class="img-responsive" src="images/work03.jpg" alt="sample image">
-									<figcaption>
-										<div class="work-details">
-											<a href="images/work03.jpg"><i class="fa fa-plus"></i></a>
-											<h2>Chess</h2>
-										</div>
-									</figcaption>
-								</figure>
-							</div>
+							<figure class="project">
+								<img class="project-thumb" src="images/greatreads_mybooks.png" alt="greatreads">
+								<section class="project-text">
+									<h1 class="project-header">Greatreads [Ruby on Rails, JavaScript, React, Redux]</h1>
+									<p class="project-description">Full-stack web application inspired by Goodreads that allows users to view, review, and collect books through bookshelves.</p>
+									<ul class="project-bullets">
+										<li>Reused React components, such as bookshelf forms, for DRY code.</li>
+										<li>Reduced data fetched through AJAX requests, and seamlessly rendered data through a load reducer in the Redux state.</li>
+										<li>Implemented autocompleting search results through AJAX requests sent on user input, and wrote a SQL query to implement smart search for book titles.</li>
+										<li>Used Paperclip to store images through AWS S3, improving performance and scalability.</li>
+										<li>LIVE GITHUB</li>
+									</ul>
+								</section>
+							</figure>
 
+							<figure class="project">
+								<img class="project-thumb" src="images/Tetris_wide.png" alt="tetris">
+								<section class="project-text">
+									<h1 class="project-header">Tetris [JavaScript]</h1>
+									<p class="project-description">The classic interactive, tile-matching browser game.</p>
+									<ul class="project-bullets">
+										<li>Used the native browser DOM API to render the changing grid and scores and allow for user interaction, and displayed a preview of the next tile through HTML5 Canvas.</li>
+										<li>Implemented logic for the game, board, and tile classes - including various types of rotation -  through prototypal inheritance and object-oriented programming.</li>
+										<li>Implemented faster tile falls as the computed level increases.</li>
+										<li>LIVE GITHUB</li>
+									</ul>
+								</section>
+							</figure>
+
+							<figure class="project">
+								<img class="project-thumb" src="images/Tetris_wide.png" alt="tetris">
+								<section class="project-text">
+									<h1 class="project-header">Chess [Ruby]</h1>
+									<p>Implemented game logic and interaction through board, game, and piece classes, using object-oriented programming, inheritance, and shared modules.</p>
+								</section>
+							</figure>
+							<div class="col-xs-12 col-sm-4 col-md-4 filtr-item" data-category="1, 5">
+							</div>
 						</div><!-- Ends: .filtr-container -->
 					</div>
 				</div>

@@ -1060,8 +1060,8 @@ input.main-search-input:-ms-input-placeholder {
    My Expertness
    ======================= */
 .skills {
-    background: #F4F4F4;
-    padding: 130px 0;
+    /*background: #F4F4F4;*/
+    padding: 60px 0;
 }
 
 .skills .skill-wrapper h3 {
@@ -1733,7 +1733,7 @@ footer p i, footer p a {
 /* =========================
    Blog Page Styles
    ======================= */
-   
+
 /* Page Header */
 .page-heading {
     background: url(../images/intro-bg03.jpg);

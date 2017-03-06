@@ -810,7 +810,7 @@ input.main-search-input:-ms-input-placeholder {
 
 /* Section Header */
 .section-header {
-    margin-bottom: 80px;
+    margin-bottom: 32px;
     text-align: center;
 }
 
@@ -2286,4 +2286,12 @@ span.typed-cursor {
 
 .clearfix:after {
     clear: both;
+}
+
+.col-sm-4.contact-info-block.wow.fadeIn {
+  width: 100%;
+}
+
+a.contact {
+  font-weight: bold;
 }

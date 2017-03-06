@@ -199,6 +199,7 @@ footer p i, footer p a {
 
 svg {
 	width: 125px;
+	margin-bottom: 10px;
 }
 
 span.skills {
@@ -208,6 +209,8 @@ span.skills {
 .svg {
 	width: 125px;
 	height: 125px;
+	margin-bottom: 15px;
+
 }
 
 section.skill-row {
@@ -220,6 +223,7 @@ section.skill-row {
 figure.skill {
 	width: 125px;
 	margin-right: 5%;
+	font-weight: bold;
 }
 
 figure:last-child {
@@ -232,7 +236,7 @@ img.project-thumb {
 }
 
 section.works {
-	min-height: 1200px;
+	min-height: 1090px;
 }
 
 section.project-text {
@@ -241,11 +245,21 @@ section.project-text {
 
 figure.project {
 	display: flex;
+	margin-bottom: 70px;
+}
+
+figure.project:last-child {
 	margin-bottom: 50px;
+}
+
+figure.project:first-child {
+	margin-top: 20px;
 }
 
 h1.project-header {
 	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 5px;
 }
 
 img.project-thumb {
@@ -275,4 +289,27 @@ a {
 
 ul.project-links li:first-child {
 	margin-right: 20px;
+}
+
+p.project-description {
+	line-height: 1.5;
+}
+
+ul.project-bullets li {
+	list-style-type: disc;
+	text-align: left;
+}
+
+ul.project-bullets {
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 15px;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+ul.list-unstyled.about-button li {
+	min-width: 204px;
+	text-align: center;
+	border: none;
 }

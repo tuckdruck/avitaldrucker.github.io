@@ -742,6 +742,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .about .about-info ul.about-btn {
     margin: 40px 0 0 0;
+    text-align: center;
 }
 
 .about .about-info ul.about-btn li {
@@ -754,8 +755,8 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .about .about-info ul.about-btn li a {
-    border-bottom: 2px solid #363636;
-    border-top: 2px solid #363636;
+    /*border-bottom: 2px solid #363636;
+    border-top: 2px solid #363636;*/
     display: block;
     padding: 15px 30px;
     text-transform: uppercase;
@@ -763,7 +764,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .about .about-info ul.about-btn li a:hover {
-    border-color: #435BE0;
+    color: #435BE0;
 }
 
 .about .about-blocks {

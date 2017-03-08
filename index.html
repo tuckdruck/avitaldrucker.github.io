@@ -7,9 +7,7 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+ 
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="css/assets/bootstrap.min.css">
@@ -152,15 +150,16 @@
 					</div>
 					<div class="col-sm-12 works-gallery wow fadeIn" data-wow-delay="0.6s">
 						<div class="filtr-container row">
+
 							<figure class="project">
-								<img class="project-thumb" src="images/Greatreads_mybooks.png" alt="greatreads">
+								<a class="ignore" href="http://www.greatreadsapp.com/#/"><img class="project-thumb" src="images/greatreads_home.png" alt="greatreads"></a>
 								<section class="project-text">
-									<h1 class="project-header">Greatreads [Ruby on Rails, JavaScript, React, Redux]</h1>
+									<h1 class="project-header"><a href="http://www.greatreadsapp.com/#/">Greatreads [Ruby on Rails, JavaScript, React, Redux]</a></h1>
 									<ul class="project-links">
 										<li><a href="http://www.greatreadsapp.com/#/">Live</a></li>
 										<li><a href="https://github.com/avitaldrucker/Greatreads">Github</a></li>
 									</ul>
-									<p class="project-description">Full-stack web application inspired by Goodreads that allows users to view, review, and collect books through bookshelves.</p>
+									<p class="project-description">Full-stack web application inspired by Goodreads for users to view, review, and collect books.</p>
 									<ul class="project-bullets">
 										<li>Reused React components, such as bookshelf forms, for DRY code.</li>
 										<li>Reduced data fetched through AJAX requests, and seamlessly rendered data through a load reducer in the Redux state.</li>
@@ -171,30 +170,36 @@
 							</figure>
 
 							<figure class="project">
-								<img class="project-thumb" src="images/Tetris_wide.png" alt="tetris">
+								<a class="ignore" href="http://www.avitaldrucker.com/Tetris"><img class="project-thumb" src="images/Tetris_wide.png" alt="tetris"></a>
 								<section class="project-text">
-									<h1 class="project-header">Tetris [JavaScript]</h1>
+									<h1 class="project-header"><a href="http://www.avitaldrucker.com/Tetris">Tetris [JavaScript]</a></h1>
 									<ul class="project-links">
 										<li><a href="http://www.avitaldrucker.com/Tetris">Live</a></li>
 										<li><a href="https://github.com/avitaldrucker/Tetris">Github</a></li>
 									</ul>
 									<p class="project-description">The classic interactive, tile-matching browser game.</p>
 									<ul class="project-bullets">
-										<li>Used the native browser DOM API to render the changing grid and scores and allow for user interaction, and displayed a preview of the next tile through HTML5 Canvas.</li>
-										<li>Implemented logic for the game, board, and tile classes - including various types of rotation -  through prototypal inheritance and object-oriented programming.</li>
-										<li>Implemented faster tile falls as the computed level increases.</li>
+										<li>Employed the native browser DOM API to render the changing grid, update scores, respond to the player’s tile manipulation, and allow for game replays.</li>
+										<li>Displayed a changing preview of the next tile through HTML5 Canvas.</li>
+										<li>Implemented logic for the game, board, and tile classes - including types of rotation -  through prototypal inheritance and object-oriented programming, minimizing code duplication and enforcing separation of concerns.</li>
+										<li>Wrote asynchronous callbacks to increase tile descent speed, challenging the player.</li>
 									</ul>
 								</section>
 							</figure>
 
 							<figure class="project">
-								<img class="project-thumb" src="images/chess.png" alt="tetris">
+								<a class="ignore" href="https://github.com/avitaldrucker/Chess"><img class="project-thumb" src="images/chess.png" alt="tetris"></a>
 								<section class="project-text">
-									<h1 class="project-header">Chess [Ruby]</h1>
+									<h1 class="project-header"><a href="https://github.com/avitaldrucker/Chess">Chess [Ruby]</a></h1>
 									<ul class="project-links">
 										<li><a href="https://github.com/avitaldrucker/Chess">Github</a></li>
 									</ul>
-									<p class="project-description">Implemented game logic and interaction through board, game, and piece classes, using object-oriented programming, inheritance, and shared modules.</p>
+									<ul class="project-bullets">
+										<li>Implemented game logic through board, game, and piece classes, leveraging object-oriented programming design principles and class-based inheritance.</li>
+										<li>Prevented moves leaving a player in check by executing the move on a copy of the board.</li>
+										<li>Integrated sliding and stepping modules in piece classes to standardize move logic.</li>
+									</ul>
+									<!-- <p class="project-description">Implemented game logic and interaction through board, game, and piece classes, using object-oriented programming, inheritance, and shared modules.</p> -->
 								</section>
 							</figure>
 
@@ -330,19 +335,6 @@
 
 
 
-		<!-- </section>
-
-		<!-- <section class="contact" id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 section-header">
-						<h2><span><i class="fa fa-bookmark"></i></span> Contact</h2>
-						<p>avitaldrucker@gmail.com</p>
-					</div>
-
-				</div>
-			</div>
-		</section>
 
 		<!-- Contact -->
 		<section class="contact" id="contact">
@@ -354,26 +346,13 @@
 					<div class="col-sm-12 contact-blocks">
 						<div class="row">
 							<div class="col-sm-4 contact-info-block wow fadeIn">
-								<!-- <i class="fa fa-envelope"></i> -->
-								<!-- <h2>Email: avitaldrucker@gmail.com</h2>
-								<h2>Phone: (732)678-7120</h2>
-								<h2>Github</h2>
-								<h2>LinkedIn</h2> -->
+
 								<p><span>Email: avitaldrucker@gmail.com</span>
 								<p>Phone: (732)678-7120</p>
 								<p><a class="contact" href="https://github.com/avitaldrucker">Github</a></p>
 								<p><a class="contact"  href="https://www.linkedin.com/in/avitaldrucker/">LinkedIn</a></p>
 							</div>
-							<!-- <div class="col-sm-4 contact-info-block wow fadeIn" data-wow-delay="0.3s">
-								<i class="fa fa-phone"></i>
-								<h2>Call US</h2>
-								<p>+123 456789<br>+123 000111</p>
-							</div>
-							<div class="col-sm-4 contact-info-block wow fadeIn" data-wow-delay="0.6s">
-								<i class="fa fa-home"></i>
-								<h2>Office</h2>
-								<p>4856 Holt Street,<br>West Palm Beach, FL 33401</p>
-							</div> -->
+
 						</div>
 					</div>
 				</div>

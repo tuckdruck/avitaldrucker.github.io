@@ -726,7 +726,7 @@ input.main-search-input:-ms-input-placeholder {
    About
    ======================= */
 .about {
-    padding: 130px 0;
+    padding: 130px 0px 48px 0px;
 }
 
 .about .about-info h2 {
@@ -816,7 +816,7 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .section-header h2 {
-    margin: 0;
+    margin: 0px 0px 48px 0px;
     font-size: 35px;
     text-align: center;
     display: inline-block;
@@ -949,7 +949,7 @@ input.main-search-input:-ms-input-placeholder {
    Work Gallery
    ======================= */
 .works {
-    padding: 58px 0 115px 0;
+    padding: 100px 0 115px 0;
 }
 
 .works .works-gallery ul.work-filter {
@@ -1062,7 +1062,7 @@ input.main-search-input:-ms-input-placeholder {
    ======================= */
 .skills {
     /*background: #F4F4F4;*/
-    padding: 25px 0px 60px 0px;
+    padding: 28px 0px 0px 0px;
 }
 
 .skills .skill-wrapper h3 {
@@ -1414,7 +1414,7 @@ input.main-search-input:-ms-input-placeholder {
    Contact
    ======================= */
 .contact {
-    padding: 70px 0px 130px 0px;
+    margin: 70px 0px 130px 0px;
 }
 
 .contact form .form-group {
@@ -2295,4 +2295,14 @@ span.typed-cursor {
 
 a.contact {
   font-weight: bold;
+}
+
+.icon-container {
+  padding-top: 40px;
+}
+
+a.ignore {
+  height: 30%;
+  width: 30.6%;
+  margin-right: 3%;
 }

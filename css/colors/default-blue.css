@@ -246,6 +246,7 @@ section.project-text {
 figure.project {
 	display: flex;
 	margin-bottom: 70px;
+	align-items: center;
 }
 
 figure.project:last-child {
@@ -298,6 +299,7 @@ p.project-description {
 ul.project-bullets li {
 	list-style-type: disc;
 	text-align: left;
+	font-size: 15px;
 }
 
 ul.project-bullets {

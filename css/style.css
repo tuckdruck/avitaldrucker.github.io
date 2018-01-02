@@ -952,6 +952,14 @@ input.main-search-input:-ms-input-placeholder {
     padding: 100px 0 115px 0;
 }
 
+.works.work-experience {
+  min-height: 0px;
+  padding-bottom: 0px;
+}
+
+.works.work-experience div.section-header {
+  margin-bottom: 0px;
+}
 .works .works-gallery ul.work-filter {
     text-align: center;
     margin-bottom: 40px;
@@ -1062,7 +1070,7 @@ input.main-search-input:-ms-input-placeholder {
    ======================= */
 .skills {
     /*background: #F4F4F4;*/
-    padding: 28px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .skills .skill-wrapper h3 {
